@@ -1,0 +1,223 @@
+body {
+    margin: 0 auto;
+    font-family: "Oswald", sans-serif;
+}
+
+main {
+    background-color: rgb(217, 232, 245);
+    width: 100%;
+}
+
+.titulo-1 {
+    text-align: center;
+    font-size: 30pt;
+    padding-top: 3%;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    flex-wrap: wrap;
+}
+
+.cards2 {
+    text-decoration: none;
+    color: inherit;
+    padding: 10px;
+}
+
+.cards h1 {
+    text-align: center;
+    margin-top: 312px;
+}
+
+.cards p {
+    text-align: center;
+    text-decoration: none;
+}
+
+.card-1 {
+    width: 400px;
+    height: 300px;
+    background-image: url(../img/atualizacao1.jpg);
+    border: 5px solid black;
+    padding: 10px;
+    margin: 30px;
+    padding-top: 20px;
+}
+
+.card-1:hover {
+    transform: scale(1.1)
+}
+
+.card-1:active {
+    color: pink;
+}
+
+.card-2 {
+    width: 400px;
+    height: 300px;
+    background-image: url(../img/atualizacao2.jpg);
+    border: 5px solid black;
+    padding: 10px;
+    margin: 30px;
+    padding-top: 20px;
+}
+
+.card-2:hover {
+    transform: scale(1.1)
+}
+
+.card-2:active {
+    color: pink;
+
+}
+
+.card-3 {
+    width: 400px;
+    height: 300px;
+    background-image: url(../img/atualizacao3.jpg);
+    border: 5px solid black;
+    padding: 10px;
+    margin: 30px;
+    padding-top: 20px;
+}
+
+.card-3:hover {
+    transform: scale(1.1)
+}
+
+.card-3:active {
+    color: pink;
+}
+
+.card-4 {
+    width: 400px;
+    height: 300px;
+    background-image: url(../img/atualizacao4.jpg);
+    border: 5px solid black;
+    padding: 10px;
+    margin: 30px;
+    padding-top: 20px;
+}
+
+.card-4:hover {
+    transform: scale(1.1)
+}
+
+.card-4:active {
+    color: pink;
+}
+
+.card-5 {
+    width: 400px;
+    height: 300px;
+    background-image: url(../img/atualizacao5.jpg);
+    border: 5px solid black;
+    padding: 10px;
+    margin: 30px;
+    padding-top: 20px;
+}
+
+.card-5:hover {
+    transform: scale(1.1)
+}
+
+.card-5:active {
+    color: pink;
+}
+
+.card-6 {
+    width: 400px;
+    height: 300px;
+    background-image: url(../img/atualizacao6.jpg);
+    border: 5px solid black;
+    padding: 10px;
+    margin: 30px;
+    padding-top: 20px;
+}
+
+.card-6:hover {
+    transform: scale(1.1)
+}
+
+.card-6:active {
+    color: pink;
+}
+
+.card-7 {
+    width: 400px;
+    height: 300px;
+    background-image: url(../img/atualizacao7.png);
+    border: 5px solid black;
+    padding: 10px;
+    margin: 30px;
+    padding-top: 20px;
+}
+
+.card-7:hover {
+    transform: scale(1.1)
+}
+
+.card-7:active {
+    color: pink;
+}
+
+.card-8 {
+    width: 400px;
+    height: 300px;
+    background-image: url(../img/atualizacao8.jpg);
+    border: 5px solid black;
+    padding: 10px;
+    margin: 30px;
+    padding-top: 20px;
+}
+
+.card-8:hover {
+    transform: scale(1.1)
+}
+
+.card-8:active {
+    color: pink;
+}
+
+.card-9 {
+    width: 400px;
+    height: 300px;
+    background-image: url(../img/atualizacao9.jpg);
+    border: 5px solid black;
+    padding: 10px;
+    margin: 30px;
+    padding-top: 20px;
+}
+
+.card-9:hover {
+    transform: scale(1.1)
+}
+
+.card-9:active {
+    color: pink;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {}
+
+@media screen and (max-width: 767px) {
+    main {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .card-1,
+    .card-2,
+    .card-3,
+    .card-4,
+    .card-5,
+    .card-6,
+    .card-7,
+    .card-8,
+    .card-9 {
+        flex-direction: column;
+    }
+
+}
